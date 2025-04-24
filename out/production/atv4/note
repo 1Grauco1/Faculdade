@@ -1,7 +1,0 @@
-1. Implemente um método que retorna o maior elemento da lista ligada;
-2. Implemente um método que retorna o menor elemento da lista ligada;
-3. Implemente uma função que retorna a quantidade de nós (tamanho) da lista;
-4. Implemente uma função que percorre a lista em ordem inversa, retornando como saída,
-uma lista de Python com os nós percorridos;
-5. Implemente uma função que retorna True se a lista tiver duplicatas e False caso contrário;
-6. Implemente uma função que remove a última ocorrência de um nó com um dado valor;
