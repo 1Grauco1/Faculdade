@@ -1,4 +1,5 @@
 public class No {
+
     private Integer dado;
     public No antNo;
     public No proxNo;
@@ -18,4 +19,9 @@ public class No {
     public Integer getDado() {
         return dado;
     }
+
+    public void setDado(Integer dado) {
+        this.dado = dado;
+    }
+
 }
