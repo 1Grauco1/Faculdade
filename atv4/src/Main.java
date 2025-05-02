@@ -63,10 +63,14 @@ public class Main {
         // Percorrer em ordem inversa
         System.out.println("Elementos em ordem inversa:");
         List<Integer> inversa = list.percorreInverso();
-        for(Integer num : inversa) {
-            System.out.print(num + " ");
+        System.out.print("[");
+        for (int i = 0; i < inversa.size(); i++) {
+            System.out.printf(inversa.get(i)+ "");
+            if(i < inversa.size() - 1) {
+                System.out.print(", ");
+            }
         }
-        System.out.println("\n");
+        System.out.println("]");
 
     }
 }
