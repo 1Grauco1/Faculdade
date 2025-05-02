@@ -1,3 +1,5 @@
+package linked_list;
+
 public class No {
 
     private Integer dado;

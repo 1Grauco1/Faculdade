@@ -1,3 +1,5 @@
+package linked_list;
+
 public interface LinkedList_IF {
 	public boolean isEmpty();
     public int size();
